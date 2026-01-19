@@ -1,3 +1,4 @@
+<img width="1028" height="791" alt="Screenshot 2026-01-19 154113" src="https://github.com/user-attachments/assets/8ccf6ac1-bb19-40e6-878d-c5b07e671c15" />
 # movie_recommendation_system
 
 A **Content-Based Movie Recommendation System** built using **Python, Machine Learning, and Streamlit**.  
@@ -25,6 +26,9 @@ As a result:
 - Movie posters may not load
 - The application may throw errors while fetching data from TMDB
 - The app may not run as expected when poster fetching is enabled
+
+<img width="1031" height="628" alt="Screenshot 2026-01-19 154139" src="https://github.com/user-attachments/assets/0319ae43-3392-4762-88fb-fa8d3282645b" />
+<img width="1028" height="791" alt="Screenshot 2026-01-19 154113" src="https://github.com/user-attachments/assets/1dd5b4ae-77ae-442b-9f12-a676a11851cc" />
 
 ### ✅ Solution
 
