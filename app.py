@@ -1,7 +1,6 @@
 import pickle
 import streamlit as st
 import requests
-import pandas as pd
 
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US".format(movie_id)
@@ -30,8 +29,7 @@ st.header('Movie Recommender System')
 
 movies = pickle.load(open('D:\python\jupyter\movie_list.pkl','rb'))
 similarity = pickle.load(open('D:\python\jupyter\similarity.pkl','rb'))
-movie_dict = pickle.load(open("D:\python\jupyter\movie_dict.pkl", 'rb'))
-new_df = pd.DataFrame(movie_dict)
+
 
 
 movie_list = movies['title'].values
@@ -59,6 +57,7 @@ if st.button('Show Recommendation'):
     with col5:
         st.text(recommended_movie_names[4])
         st.image(recommended_movie_posters[4])
+
 
 
 
