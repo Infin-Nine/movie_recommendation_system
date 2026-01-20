@@ -46,3 +46,9 @@ Once the VPN is active, the application should work normally without any TMDB-re
 🔹 If you do not want to use a VPN, you can:
 - Disable poster fetching logic in `app.py`, or
 - Modify the app to run only with local data
+
+---
+
+Because of this error "Yowza, that’s a big file. Try again with a file smaller than 25MB."
+i do not upload movies_similarity.pkl and series_similarity.pkl file.
+to run app.py you want similarity files so you can downnload these files from Recommandation_system.ipynb notebook.
